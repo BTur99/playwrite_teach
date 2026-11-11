@@ -15,3 +15,5 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Sign in").click() # кликает на кнопку войти
     page.screenshot(path="login.png")
     browser.close()
+
+# Результат: пишет заголовок и делает серин проделанной работы 
